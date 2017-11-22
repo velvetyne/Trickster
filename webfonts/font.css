@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Trickster_Regular';
+    src:    url('Trickster-Regular.eot');
+    src:    url('Trickster-Regular.eot?#iefix') format('embedded-opentype'),
+            url('Trickster-Regular.woff') format('woff'),
+            url('Trickster-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

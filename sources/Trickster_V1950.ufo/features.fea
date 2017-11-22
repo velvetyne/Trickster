@@ -1,0 +1,115 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn AZE ;
+languagesystem latn TRK ;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+
+@No_desc = [ a a.ss04 b c d e e.swsh h i k k.ss01 l m n o r r.ss02 r.calt s s.ss04 t u v w x z ae oe lslash oslash eth dotlessi aacute acircumflex adieresis agrave aring atilde abreve amacron cacute ccaron ccircumflex cdotaccent dcaron dcroat eacute ecircumflex edieresis egrave ebreve ecaron edotaccent emacron hbar hcircumflex iacute icircumflex idieresis igrave ibreve i.dot imacron itilde lacute lcaron ntilde nacute ncaron oacute ocircumflex odieresis ograve otilde obreve ohungarumlaut omacron racute rcaron scaron sacute scircumflex tbar tcaron uacute ucircumflex udieresis ugrave ubreve uhungarumlaut umacron uring utilde wacute wcircumflex wdieresis wgrave zcaron zacute zdotaccent ];
+@alll = [a a.ss04 b c c.ss02 d e e.ss02 f f.ss02 g g.ss02 h i j k l m n o o.ss02 p q r r.ss02 r.calt s s.ss04 s.ss02 t t.swsh u v w x y y.swsh z ae oe lslash oslash eth thorn germandbls dotlessi dotlessj fi fl aacute acircumflex adieresis agrave aring atilde abreve amacron aogonek ccedilla cacute ccaron ccircumflex cdotaccent dcaron dcroat eacute ecircumflex edieresis egrave ebreve ecaron edotaccent emacron eogonek gbreve gcircumflex gcommaaccent gdotaccent hbar hcircumflex iacute icircumflex idieresis igrave ibreve i.dot imacron iogonek itilde jcircumflex ij kcommaaccent lacute lcaron lcommaaccent ldot ntilde nacute ncaron ncommaaccent oacute ocircumflex odieresis ograve otilde obreve ohungarumlaut omacron racute rcaron rcommaaccent scaron sacute scedilla scircumflex uni0219 tbar tcaron uni0163 uni021B uacute ucircumflex udieresis ugrave ubreve uhungarumlaut umacron uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ydieresis ycircumflex ygrave zcaron zacute zdotaccent ];
+
+feature locl {
+script latn;
+language AZE  exclude_dflt; # Azeri
+	sub i by i.dot;
+language TRK  exclude_dflt; # Turkish
+	sub i by i.dot;
+language CRT  exclude_dflt; # Crimean Tatar
+	sub i by i.dot;
+language MOL  exclude_dflt; # Moldavian
+        sub scedilla by uni0219;
+        sub Scedilla by uni0218;
+language ROM exclude_dflt; # Romanian
+        sub scedilla by uni0219;
+        sub Scedilla by uni0218;
+}locl;
+
+    
+feature calt {
+    sub r' [f f.ss02 fl fi] by r.calt;
+    }calt;
+
+feature liga {
+    sub i f i by i_f_i;
+    sub i f by i_f;
+    sub f i by fi;
+    sub f l by fl;
+    }liga;
+
+feature ss01{    
+    featureNames{
+	name 1 "Boring forms";
+	name 3 "Boring forms";
+    };
+    sub f by f.ss01;
+}ss01;
+
+
+feature ss02{
+            featureNames{
+	name 1 "Burger s, smoky f";
+	name 3 "Burger s, smoky f";
+    };
+    sub s by s.ss04;
+    sub f by f.ss02;
+    sub k by k.ss01;
+    sub S by S.alt;
+}ss02;
+
+
+feature ss03{
+        featureNames{
+	name 1 "Dripping Blood";
+	name 3 "Dripping Blood";
+    };
+    sub c by c.ss02;
+    sub o by o.ss02;
+    sub e by e.ss02;
+    sub f by f.ss02;
+    sub s by s.ss02;
+    sub g by g.ss02;
+    sub r by r.ss02;
+}ss03;
+
+
+feature ss04{    
+    featureNames{
+	name 1 "Closed a";
+	name 3 "Closed a";
+    };
+    sub a by a.ss04;
+}ss04;
+
+feature ss05{    
+    featureNames{
+	name 1 "Alt Ampersand";
+	name 3 "Alt Ampersand";
+    };
+    sub ampersand by ampersand.alt;
+}ss05;
+
+feature ss06{    
+    featureNames{
+	name 1 "Horny e";
+	name 3 "Horny e";
+    };
+    sub e by e.swsh;
+}ss06;
+
+feature swsh{
+    sub @No_desc y' by y.swsh;
+    
+    lookup final{
+        ignore sub e' @alll;
+        sub e' by e.swsh.alt;
+        ignore sub k' @alll;
+        sub k' by k.swash;
+    }final;
+}swsh;
+
+feature onum{
+    sub [zero one two three four five six seven eight nine ] by [zero.alt one.alt two.alt three.alt four.alt five.alt six.alt seven.alt eight.alt nine.alt ];
+    }onum;
+
+
+
