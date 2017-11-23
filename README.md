@@ -9,7 +9,11 @@ is a typeface by [Jean-Baptiste Morizot](http://jbmorizot.fr/)
 ```
 Trickster is a typeface mixing a lot of oddities smoothly.
 
-Sans-serif, but with calligraphic influence and strong contrast, Trickster borrows shapes from Merovingian writing, Blackletters construction and contemporean drawing. Trickster is a display typeface in one bold weight. Its unusual shapes, tight spacing and various alternates allow designers to create quickly strong headlines and beautiful titling.
+Sans-serif, but with calligraphic influence and strong contrast, 
+Trickster borrows shapes from Merovingian writing, Blackletters construction 
+and contemporean drawing. Trickster is a display typeface in one bold weight. 
+Its unusual shapes, tight spacing and various alternates allow designers 
+to create quickly strong headlines and beautiful titling.
 ```
 
 ## Features
