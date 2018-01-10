@@ -1,0 +1,56 @@
+Web Fonts:
+**********
+
+Trickster_V2000.ufo
+-------------------
+source: /Users/JBMZ/Documents/VTF/Trickster/sources/Trickster_V2000.ufo
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/JBMZ/Documents/VTF/Trickster/webfonts/Trickster-Regular.woff
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font 'dummyCompile.otf' to temporary Unix Type1 font file 'dummyCompile.otf.tmp'.
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "dummyCompile.otf.tmp" "-o" "tmpAXLtvW.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        makeotfexe [NOTE] Wrote new font file 'tmpAXLtvW.ttf'.
+        
+        
+        Built release mode font 'tmpAXLtvW.ttf' Revision 2.000
+        
+        --------------------
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/JBMZ/Documents/VTF/Trickster/webfonts/Trickster-Regular.woff2
+
+Build EOT
+'''''''''
+    path: /Users/JBMZ/Documents/VTF/Trickster/webfonts/Trickster-Regular.eot
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14

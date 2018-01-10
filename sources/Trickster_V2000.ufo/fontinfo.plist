@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>770</integer>
+	<key>capHeight</key>
+	<integer>760</integer>
+	<key>copyright</key>
+	<string>(c) Jean-Baptiste Morizot. OFL licence</string>
+	<key>descender</key>
+	<integer>-175</integer>
+	<key>familyName</key>
+	<string>Trickster</string>
+	<key>italicAngle</key>
+	<real>0.0</real>
+	<key>openTypeHeadLowestRecPPEM</key>
+	<integer>9</integer>
+	<key>openTypeHheaAscender</key>
+	<integer>1050</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-200</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameCompatibleFullName</key>
+	<string>Trickster</string>
+	<key>openTypeNameDesigner</key>
+	<string>Jean-Baptiste Morizot</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>www.jbmorizot.fr</string>
+	<key>openTypeNameLicense</key>
+	<string>OFL licence</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>www.velvetyne.fr</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Jean-Baptiste Morizot</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>www.jbmorizot.fr</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>Trickster</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
+	<key>openTypeNameVersion</key>
+	<string>Version 2.000</string>
+	<key>openTypeOS2CodePageRanges</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+	</array>
+	<key>openTypeOS2Panose</key>
+	<array>
+		<integer>1</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2StrikeoutSize</key>
+	<integer>70</integer>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>810</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-190</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>250</integer>
+	<key>openTypeOS2UnicodeRanges</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>openTypeOS2VendorID</key>
+	<string>VTF </string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>1050</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>200</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-13</integer>
+		<integer>0</integer>
+		<integer>580</integer>
+		<integer>593</integer>
+		<integer>750</integer>
+		<integer>763</integer>
+		<integer>775</integer>
+		<integer>788</integer>
+	</array>
+	<key>postscriptFamilyBlues</key>
+	<array>
+	</array>
+	<key>postscriptFamilyOtherBlues</key>
+	<array>
+	</array>
+	<key>postscriptFontName</key>
+	<string>Trickster-Regular</string>
+	<key>postscriptFullName</key>
+	<string>Trickster Regular</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-186</integer>
+		<integer>-175</integer>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+	</array>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-80</integer>
+	<key>postscriptUnderlineThickness</key>
+	<integer>70</integer>
+	<key>postscriptWeightName</key>
+	<string>Regular</string>
+	<key>styleMapFamilyName</key>
+	<string>Trickster</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>trademark</key>
+	<string>(c) Jean-Baptiste Morizot</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>2</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>580</integer>
+	<key>year</key>
+	<integer>2017</integer>
+</dict>
+</plist>
