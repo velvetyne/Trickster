@@ -36,3 +36,7 @@ Old Style Figures
 ## Licence
 
 SIL Open Font License v1.1
+
+## Process
+
+More on the design process [here](https://medium.com/@jbmorizot/trikster-a-postmortem-686f4608da9e)
